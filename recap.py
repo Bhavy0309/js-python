@@ -1,3 +1,5 @@
+
+
 print("Hello World!")
 
 ask = input("Enter y if you want to use the calculator, Enter n to skip the calculator ")
@@ -87,3 +89,7 @@ def numbertypechecker():
 ### this function was made because of useage of else to check...
 ### Calling the function bellow
 numbertypechecker()
+
+numbers = 20
+for i in range(0,21):
+    print(i)
