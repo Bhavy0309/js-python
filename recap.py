@@ -1,5 +1,3 @@
-
-
 print("Hello World!")
 
 ask = input("Enter y if you want to use the calculator, Enter n to skip the calculator ")
@@ -115,3 +113,38 @@ revers()
 list = [1,2,3,4,5,6,77]
 print(list[6])
 
+def check():
+    word="how"
+    if word == "how":
+        word == 'who'
+    elif word == 'who':
+        print(f"This word {word} is a palindrome.")
+    else:
+        print(word)
+check()
+
+import random
+randomNumber = random.randint(1,50)
+print(randomNumber)
+### 1.60934 = kilometer, kilometer = miles * 1.60934
+
+def convert():
+    checkNumber=int(input("Enter an number, and I should be positive, because you number will be turning in from kilometer(s) into mile(s)"))
+    if checkNumber != int and checkNumber == "" or checkNumber == "" or checkNumber != int:
+        print("Invalid form or value")
+        convert()
+    elif checkNumber == int and checkNumber != "":
+        print(f"Please confirm if this was your number {checkNumber}")
+        confirm = input("Y/N")
+        if confirm == "Y" or confirm == "y" or confirm == "yes" or confirm == "YES" or confirm == "Yes":
+            print("Thankyou for confirming")
+            print("Redericting you to the server")
+            print()
+            print()
+            print()
+            print()
+            print()
+            print()
+            print()
+            print()
+            
