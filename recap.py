@@ -93,3 +93,25 @@ numbertypechecker()
 numbers = 20
 for i in range(0,21):
     print(i)
+
+
+def revers():
+    animals = ['lion','tiger','bull',"cow", "cat", "dog"]
+    print(animals[0])
+    print(animals[1])
+    print(animals[2])
+    print(animals[3])
+    print(animals[4])
+    print(animals[5])
+    ### next part
+    print(animals[5])
+    print(animals[4])
+    print(animals[3])
+    print(animals[2])
+    print(animals[1])
+    print(animals[0])
+revers()
+
+list = [1,2,3,4,5,6,77]
+print(list[6])
+
