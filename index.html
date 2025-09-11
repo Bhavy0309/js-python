@@ -8,10 +8,121 @@
     <style>
         body{
             background: fixed blueviolet;
-        }
-        .intro{
             color: whitesmoke;
+            margin: 10px;
+            padding: 10px;
         }
+        .intro {
+            color: whitesmoke;
+            background: fixed purple;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+
+        }
+        .intro:hover{
+            color: purple;
+            background: fixed whitesmoke;
+            padding: 50px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            border-radius: 50px;
+            margin: 50px;
+
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+            text-shadow: 0 0 30px green,
+          0 0 10px yellowgreen,
+          0 0 50px red,
+          0 0 60px yellow;
+        }
+         strong {
+      color: #fff;
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 
+          0 0 10px whitesmoke,
+          0 0 15px whitesmoke,
+          0 0 20px whitesmoke;
+      }
+      to {
+        text-shadow: 
+          0 0 30px blue,
+          0 0 10px yellowgreen,
+          0 0 50px red,
+          0 0 60px yellow;
+      }
+    }
+    .ulpy{
+        color: whitesmoke;
+        background: fixed green;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .ulpy:hover{
+        color: purple;
+        background: fixed whitesmoke;
+        padding: 50px;
+        padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            border-radius: 50px;
+            margin: 50px;
+    }
+    .uljs{
+        color: whitesmoke;
+        background: fixed blue;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .uljs:hover{
+        color: blue;
+        background: fixed whitesmoke;
+        padding: 50px;
+        padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            border-radius: 50px;
+            margin: 50px;
+    }
+    .Downloadpy{
+        color: whitesmoke;
+        background: fixed yellow;
+        justify-content: center;
+        padding: 20px;
+        padding-left: 500px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .Downloadjs{
+        color: whitesmoke;
+        background: fixed yellow;
+        justify-content: center;
+        padding: 20px;
+        padding-left: 500px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    
     </style>
 </head>
 
@@ -64,14 +175,51 @@
             </li>
         </ul>
     </div>
-    <ul>
-        <li>
-            just do the same for the Js but just change the file names plus when running in terminal put node and then the file name make sure you have node.js downloaded and for one compiler change it javascript
-        </li>
-    </ul>
+    <div class="uljs">
+        <ul>
+            <h1>if any of these files are empty then they have no code <strong>Yet</strong></h1>
+            <h2>
+                For <strong>javascript</strong> files <strong>ONLY:</strong>
+            </h2>
+            <li>
+                open your Code editor
+            </li>
+            <li>
+                Then make a JS file ex. Hello.js
+            </li>
+            <li>
+                Paste the code from <strong><a href="js.md">here</a></strong> or from the Above
+            </li>
+            <li>
+                Then run it in the terminal like this:
+            </li>
+            <li>
+                press CTRL + ` the key ` can be found under the escape key
+            </li>
+            <li>
+                paste this code node and your file name make sure you have node.js downloaded
+            </li>
+            <li>
+                Then press enter
+            </li>
+            <li>
+                Then see the magic
+            </li>
+            <li>
+                <h1>
+                    What to do if you do not have an computer or a code editor:
+                </h1>
+            </li>
+            <li>go to <a href="https://onecompiler.com/javascript">OneCompiler.com</a> Then paste the code</li>
+            <li>
+                make sure you read the stuff bellow in <a
+                    href="https://onecompiler.com/python/">OneCompiler.com</a> for inputs
+            </li>
+        </ul>
+    </div>
 
-    <div class="Downloadpy"><a href="recap.py">Download the python file from here</a></div>
-    <div class="Downloadjs"><a href="recap.js">Download the python file from here</a></div>
+    <div class="Downloadpy"><a href="recap.py" download="recap.py">Download the python file from here</a></div>
+    <div class="Downloadjs"><a href="recap.js" download="recap.js">Download the js file from here</a></div>
 </body>
 
 </html>
